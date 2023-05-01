@@ -77,20 +77,20 @@ const config = {
           label: "User Guide",
           position: "right",
         },
-        {
-          href: "/api/store",
-          label: "Store API",
-          prependBaseUrlToHref: true,
-          target: "_blank",
-          position: "right",
-        },
-        {
-          href: "/api/admin",
-          label: "Admin API",
-          prependBaseUrlToHref: true,
-          target: "_blank",
-          position: "right",
-        },
+        // {
+        //   href: "/api/store",
+        //   label: "Store API",
+        //   prependBaseUrlToHref: true,
+        //   target: "_blank",
+        //   position: "right",
+        // },
+        // {
+        //   href: "/api/admin",
+        //   label: "Admin API",
+        //   prependBaseUrlToHref: true,
+        //   target: "_blank",
+        //   position: "right",
+        // },
       ],
     },
     navbarActions: [
@@ -178,20 +178,20 @@ const config = {
       {
         // Plugin Options for loading OpenAPI files
         specs: [
-          {
-            spec: path.join(apisPath, "store/openapi.yaml"),
-            route: "/api/store",
-            layout: {
-              noFooter: true,
-            },
-          },
-          {
-            spec: path.join(apisPath, "admin/openapi.yaml"),
-            route: "/api/admin",
-            layout: {
-              noFooter: true,
-            },
-          },
+          // {
+          //   spec: path.join(apisPath, "store/openapi.yaml"),
+          //   route: "/api/store",
+          //   layout: {
+          //     noFooter: true,
+          //   },
+          // },
+          // {
+          //   spec: path.join(apisPath, "admin/openapi.yaml"),
+          //   route: "/api/admin",
+          //   layout: {
+          //     noFooter: true,
+          //   },
+          // },
         ],
         // Theme Options for modifying how redoc renders them
         theme: {
