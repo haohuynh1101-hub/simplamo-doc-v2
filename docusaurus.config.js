@@ -17,7 +17,7 @@ const config = {
   url: "https://docs.medusajs.com",
   baseUrl: "/",
   onBrokenLinks: "ignore",
-  onBrokenMarkdownLinks: "ignore"
+  onBrokenMarkdownLinks: "ignore",
   // onBrokenLinks: "throw",
   // onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
