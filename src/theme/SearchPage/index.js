@@ -7,10 +7,8 @@ import {
 /* eslint-disable jsx-a11y/no-autofocus */
 import React, {useEffect, useReducer, useRef, useState} from 'react';
 import Translate, {translate} from '@docusaurus/Translate';
-import {
-  useSearchPage,
-  useTitleFormatter,
-} from '@docusaurus/theme-common/internal';
+import { useSearchQueryString } from '@docusaurus/theme-common'
+import {useTitleFormatter} from '@docusaurus/theme-common/internal';
 
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 import Head from '@docusaurus/Head';
@@ -118,7 +116,7 @@ function SearchPageContent() {
   } = themeConfig;
   const documentsFoundPlural = useDocumentsFoundPlural();
   const docsSearchVersionsHelpers = useDocsSearchVersionsHelpers();
-  const {searchQuery, setSearchQuery} = useSearchPage();
+  const {searchQuery, setSearchQuery} = useSearchQueryString();
   const initialSearchResultState = {
     items: [],
     query: null,
