@@ -13,8 +13,8 @@ const announcementBar = JSON.parse(fs.readFileSync("./announcement.json"))
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 const config = {
   title: "Simplamo",
-  tagline: "Explore and learn how to use Medusa",
-  url: "https://docs.medusajs.com",
+  tagline: "Explore and learn how to use Simplamo",
+  url: "https://docs.simplamo.com",
   baseUrl: "/",
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "ignore",
@@ -86,7 +86,7 @@ const config = {
         {
           type: "docSidebar",
           sidebarId: "userGuideSidebar",
-          label: "User Guide",
+          label: "Releases",
           position: "right",
         },
         {
@@ -121,17 +121,17 @@ const config = {
       copyright: `© ${new Date().getFullYear()} Simplamo, Inc. All rights reserved.`,
     },
     socialLinks: [
-      {
-        type: "discord",
-        href: "https://discord.gg/medusajs",
-      },
+      // {
+      //   type: "discord",
+      //   href: "https://discord.gg/medusajs",
+      // },
       {
         type: "twitter",
         href: "https://twitter.com/medusajs",
       },
       {
         type: "linkedin",
-        href: "https://www.linkedin.com/company/medusajs",
+        href: "https://www.linkedin.com/company/simplamo-vietnam/mycompany/",
       },
       {
         type: "github",

@@ -79,362 +79,6 @@ module.exports = {
       },
       className: "homepage-sidebar-item",
     },
-    // {
-    //   type: "html",
-    //   value: "Frontend Storefronts",
-    //   customProps: {
-    //     sidebar_is_group_divider: true,
-    //   },
-    //   className: "homepage-sidebar-item",
-    // },
-    // {
-    //   type: "doc",
-    //   id: "starters/nextjs-medusa-starter",
-    //   label: "Next.js Storefront",
-    //   customProps: {
-    //     sidebar_icon: "nextjs",
-    //   },
-    //   className: "homepage-sidebar-item",
-    // },
-    // {
-    //   type: "doc",
-    //   id: "storefront/roadmap",
-    //   label: "Build a Storefront",
-    //   customProps: {
-    //     sidebar_icon: "building-storefront",
-    //   },
-    //   className: "homepage-sidebar-item",
-    // },
-    // {
-    //   type: "html",
-    //   value: "SDKs",
-    //   customProps: {
-    //     sidebar_is_group_divider: true,
-    //   },
-    //   className: "homepage-sidebar-item",
-    // },
-    // {
-    //   type: "ref",
-    //   id: "js-client/overview",
-    //   label: "JavaScript Client",
-    //   customProps: {
-    //     sidebar_icon: "javascript",
-    //   },
-    //   className: "homepage-sidebar-item",
-    // },
-    // {
-    //   type: "doc",
-    //   id: "medusa-react/overview",
-    //   label: "Medusa React",
-    //   customProps: {
-    //     sidebar_icon: "react",
-    //   },
-    //   className: "homepage-sidebar-item",
-    // },
-    // {
-    //   type: "html",
-    //   value: "CLI Tools",
-    //   customProps: {
-    //     sidebar_is_group_divider: true,
-    //   },
-    //   className: "homepage-sidebar-item",
-    // },
-    // {
-    //   type: "doc",
-    //   id: "cli/reference",
-    //   label: "Medusa CLI",
-    //   customProps: {
-    //     sidebar_icon: "command-line",
-    //   },
-    //   className: "homepage-sidebar-item",
-    // },
-    // {
-    //   type: "doc",
-    //   id: "development/fundamentals/local-development",
-    //   label: "Medusa Dev CLI",
-    //   customProps: {
-    //     sidebar_icon: "tools",
-    //   },
-    //   className: "homepage-sidebar-item",
-    // },
-    // {
-    //   type: "html",
-    //   value: "Additional Resources",
-    //   customProps: {
-    //     sidebar_is_group_divider: true,
-    //   },
-    //   className: "homepage-sidebar-item",
-    // },
-    // {
-    //   type: "category",
-    //   label: "Deploy",
-    //   customProps: {
-    //     sidebar_icon: "cloud-arrow-up",
-    //   },
-    //   items: [
-    //     {
-    //       type: "category",
-    //       label: "Backend",
-    //       link: {
-    //         type: "doc",
-    //         id: "deployments/server/index",
-    //       },
-    //       items: [
-    //         {
-    //           type: "doc",
-    //           id: "deployments/server/deploying-on-heroku",
-    //           label: "Deploy on Heroku",
-    //           customProps: {
-    //             image:
-    //               "https://res.cloudinary.com/dza7lstvk/image/upload/v1669739927/Medusa%20Docs/Other/xNvxSkf_l230wq.png",
-    //           },
-    //         },
-    //         {
-    //           type: "doc",
-    //           id: "deployments/server/deploying-on-digital-ocean",
-    //           label: "Deploy on DigitalOcean",
-    //           customProps: {
-    //             image:
-    //               "https://res.cloudinary.com/dza7lstvk/image/upload/v1669739945/Medusa%20Docs/Other/aahqJp4_lbtfdz.png",
-    //           },
-    //         },
-    //         {
-    //           type: "doc",
-    //           id: "deployments/server/deploying-on-railway",
-    //           label: "Deploy on Railway",
-    //           customProps: {
-    //             themedImage: {
-    //               light:
-    //                 "https://res.cloudinary.com/dza7lstvk/image/upload/v1669741520/Medusa%20Docs/Other/railway-light_fzuyeo.png",
-    //               dark: "https://res.cloudinary.com/dza7lstvk/image/upload/v1669741520/Medusa%20Docs/Other/railway-dark_kkzuwh.png",
-    //             },
-    //           },
-    //         },
-    //         {
-    //           type: "doc",
-    //           id: "deployments/server/deploying-on-microtica",
-    //           label: "Deploy on Microtica",
-    //           customProps: {
-    //             themedImage: {
-    //               light:
-    //                 "https://res.cloudinary.com/dza7lstvk/image/upload/v1681296578/Medusa%20Docs/Other/aF4ZuDS_t11rcu.png",
-    //               dark: "https://res.cloudinary.com/dza7lstvk/image/upload/v1681296612/Medusa%20Docs/Other/Lg7NHQk_qo6oax.png",
-    //             },
-    //           },
-    //         },
-    //         {
-    //           type: "doc",
-    //           id: "deployments/server/deploying-on-qovery",
-    //           label: "Deploy on Qovery",
-    //           customProps: {
-    //             image:
-    //               "https://res.cloudinary.com/dza7lstvk/image/upload/v1669739955/Medusa%20Docs/Other/qOvY2dN_vogsxy.png",
-    //             badge: {
-    //               variant: "orange",
-    //               children: "Deprecated",
-    //             },
-    //           },
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       type: "category",
-    //       label: "Admin",
-    //       link: {
-    //         type: "doc",
-    //         id: "deployments/admin/index",
-    //       },
-    //       items: [
-    //         {
-    //           type: "doc",
-    //           id: "deployments/admin/deploying-on-vercel",
-    //           label: "Deploy on Vercel",
-    //           customProps: {
-    //             themedImage: {
-    //               light:
-    //                 "https://res.cloudinary.com/dza7lstvk/image/upload/v1679574115/Medusa%20Docs/Other/vercel-icon-dark_llkb7l.png",
-    //               dark: "https://res.cloudinary.com/dza7lstvk/image/upload/v1679574132/Medusa%20Docs/Other/vercel-icon-light_obvtno.png",
-    //             },
-    //           },
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       type: "category",
-    //       label: "Storefront",
-    //       link: {
-    //         type: "doc",
-    //         id: "deployments/storefront/index",
-    //       },
-    //       items: [
-    //         {
-    //           type: "doc",
-    //           id: "deployments/storefront/deploying-next-on-vercel",
-    //           label: "Deploy Next.js on Vercel",
-    //           customProps: {
-    //             themedImage: {
-    //               light:
-    //                 "https://res.cloudinary.com/dza7lstvk/image/upload/v1679574115/Medusa%20Docs/Other/vercel-icon-dark_llkb7l.png",
-    //               dark: "https://res.cloudinary.com/dza7lstvk/image/upload/v1679574132/Medusa%20Docs/Other/vercel-icon-light_obvtno.png",
-    //             },
-    //           },
-    //         },
-    //         {
-    //           type: "doc",
-    //           id: "deployments/storefront/deploying-gatsby-on-netlify",
-    //           label: "Deploy Gatsby on Netlify",
-    //           customProps: {
-    //             image:
-    //               "https://res.cloudinary.com/dza7lstvk/image/upload/v1679574027/Medusa%20Docs/Other/gCbsCvX_h7nijn.png",
-    //             badge: {
-    //               variant: "orange",
-    //               children: "Deprecated",
-    //             },
-    //           },
-    //         },
-    //       ],
-    //     },
-    //   ],
-    //   className: "homepage-sidebar-item",
-    // },
-    // {
-    //   type: "ref",
-    //   id: "upgrade-guides/index",
-    //   label: "Upgrade Guides",
-    //   customProps: {
-    //     sidebar_icon: "cog-six-tooth",
-    //   },
-    //   className: "homepage-sidebar-item",
-    // },
-    // {
-    //   type: "category",
-    //   label: "Troubleshooting",
-    //   customProps: {
-    //     sidebar_icon: "bug",
-    //   },
-    //   items: [
-    //     {
-    //       type: "category",
-    //       label: "Installation Errors",
-    //       items: [
-    //         {
-    //           type: "doc",
-    //           id: "troubleshooting/create-medusa-app-errors",
-    //           label: "Create Medusa App Errors",
-    //         },
-    //         {
-    //           type: "doc",
-    //           id: "troubleshooting/cli-installation-errors",
-    //           label: "Errors Installing CLI",
-    //         },
-    //         {
-    //           type: "doc",
-    //           id: "troubleshooting/common-installation-errors",
-    //           label: "General Errors",
-    //         },
-    //         {
-    //           type: "doc",
-    //           id: "troubleshooting/errors-after-update",
-    //           label: "Errors After Update",
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       type: "category",
-    //       label: "Medusa Backend Errors",
-    //       items: [
-    //         {
-    //           type: "doc",
-    //           id: "troubleshooting/database-error",
-    //           label: "Database SASL Error",
-    //         },
-    //         {
-    //           type: "doc",
-    //           id: "troubleshooting/redis-events",
-    //           label: "Redis not emitting events",
-    //         },
-    //         {
-    //           type: "doc",
-    //           id: "troubleshooting/awilix-resolution-error",
-    //           label: "Handling AwilixResolutionError",
-    //         },
-    //         {
-    //           type: "doc",
-    //           id: "troubleshooting/transaction-error-in-checkout",
-    //           label: "Error 409 in checkout",
-    //         },
-    //         {
-    //           type: "doc",
-    //           id: "troubleshooting/missing-payment-providers",
-    //           label: "Payment provider missing",
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       type: "category",
-    //       label: "Frontend Errors",
-    //       items: [
-    //         {
-    //           type: "doc",
-    //           id: "troubleshooting/cors-issues",
-    //           label: "CORS issues",
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       type: "category",
-    //       label: "Admin Dashboard Errors",
-    //       items: [
-    //         {
-    //           type: "doc",
-    //           id: "troubleshooting/signing-in-to-admin",
-    //           label: "Signing in to the Admin Dashboard",
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       type: "category",
-    //       label: "Plugin Errors",
-    //       items: [
-    //         {
-    //           type: "doc",
-    //           id: "troubleshooting/s3-acl-error",
-    //           label: "S3 Plugin ACL Error",
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       type: "category",
-    //       label: "Other Errors",
-    //       items: [
-    //         {
-    //           type: "doc",
-    //           id: "troubleshooting/documentation-error",
-    //           label: "Documentation Error",
-    //         },
-    //       ],
-    //     },
-    //   ],
-    //   className: "homepage-sidebar-item",
-    // },
-    // {
-    //   type: "doc",
-    //   id: "contribution-guidelines",
-    //   label: "Contribution Guidelines",
-    //   customProps: {
-    //     sidebar_icon: "document-text",
-    //   },
-    //   className: "homepage-sidebar-item",
-    // },
-    // {
-    //   type: "doc",
-    //   id: "usage",
-    //   label: "Usage",
-    //   customProps: {
-    //     sidebar_icon: "light-bulb",
-    //   },
-    //   className: "homepage-sidebar-item",
-    // },
   ],
   modules: [
     {
@@ -1380,16 +1024,51 @@ module.exports = {
     {
       type: "doc",
       id: "user-guide",
-      label: "User Guide",
+      label: "Simplamo Updates",
       customProps: {
         sidebar_is_title: true,
         sidebar_icon: "user",
       },
     },
     {
-      type: "autogenerated",
-      dirName: "user-guide",
+      type: "category",
+      label: "2023 Releases",
+      collapsible: false,
+      customProps: {
+        sidebar_is_group_headline: true,
+      },
+      items: [
+        {
+          type: "doc",
+          id: "releases/2023/v1.21",
+          label: "v1.21",
+        },
+        {
+          type: "doc",
+          id: "releases/2023/v1.20",
+          label: "v1.20",
+        },
+        {
+          type: "doc",
+          id: "releases/2023/v1.19",
+          label: "v1.19",
+        },
+        {
+          type: "doc",
+          id: "releases/2023/v1.18",
+          label: "v1.18",
+        },
+        // {
+        //   type: "doc",
+        //   id: "releases/2023/v1.17",
+        //   label: "v1.17",
+        // }
+      ],
     },
+    // {
+    //   type: "autogenerated",
+    //   dirName: "user-guide",
+    // },
   ],
   servicesSidebar: [
     {
