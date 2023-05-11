@@ -12,7 +12,7 @@ const announcementBar = JSON.parse(fs.readFileSync("./announcement.json"))
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 const config = {
-  title: "Medusa",
+  title: "Simplamo",
   tagline: "Explore and learn how to use Medusa",
   url: "https://docs.medusajs.com",
   baseUrl: "/",
@@ -32,6 +32,16 @@ const config = {
     ],
     require.resolve("docusaurus-plugin-image-zoom"),
   ],
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "vi"],
+    localeConfigs: {
+      // "zh-Hant": { label: "正體中文" },
+      // "zh-Hans": { label: "简体中文" },
+      en: { label: "English" },
+      vi: { label: "Vietnamese", path: "vi" },
+    },
+  },
   themeConfig: {
     image: "img/docs-banner.jpg",
     colorMode: {
@@ -41,7 +51,7 @@ const config = {
     },
     algolia: {
       apiKey: algoliaApiKey,
-      indexName: "medusa-commerce",
+      indexName: "simplamo-commerce",
       placeholder: "Search docs...",
       appId: algoliaAppId,
       contextualSearch: false,
@@ -79,6 +89,10 @@ const config = {
           label: "User Guide",
           position: "right",
         },
+        {
+          type: "localeDropdown",
+          position: "right",
+        },
         // {
         //   href: "/api/store",
         //   label: "Store API",
@@ -104,7 +118,7 @@ const config = {
       },
     ],
     footer: {
-      copyright: `© ${new Date().getFullYear()} Medusa, Inc. All rights reserved.`,
+      copyright: `© ${new Date().getFullYear()} Simplamo, Inc. All rights reserved.`,
     },
     socialLinks: [
       {
